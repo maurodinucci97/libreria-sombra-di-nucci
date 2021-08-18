@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    <title>concursos</title>
+</head>
+<body>
+   <header> 
+    <nav> 
+      <ul>
+       
+          <li> 
+               <a href="/index.html"> inicio </a>
+           </li>
+           <li> 
+               <a href="./galeria-de-fotos.html"> galeria de fotos </a>
+           </li>
+           <li> 
+               <a href="./ofertas.html"> ofertas </a>
+           </li>
+           <li> 
+                <a href="./entrevistas.html"> entrevistas con autores </a>
+            </li> 
+              <li>  
+                <a href="./concursos.html"> concursos </a>
+            </li>
+          
+            </ul>
+  </nav>
+
+
+ </header>
+         <h1 class="subtitulo"> concursos  </h1>
+
+                
+    <main class="contenedorConcursos">
+ 
+           <p class="pConcursos"> aqui podras anotarte a los concursos de nuestra editorial y concursos de editoriales internacionales para divulgar tu trabajo y obtener importantes benficios como la publicacion de tus trabajos. </p>
+
+</main>
+
+        <aside class="asideConcursos">
+    
+    <input type="text" name="nombre" placeholder="escribe tu nombre" required >  
+    <input type="password" name="contraseña" placeholder="contraseña" maxlength="30"  required > 
+    <input type="email" name="email"placeholder= "escribe tu mail" maxlength="30" minlength="5">  
+                <label for="pais"> Pais </label>
+                <select name="pais" id="">
+        <option value="argentina "> argentina</option>
+        <option value="brasil"> brasil</option>
+        <option value="colombia">colombia</option>
+        <option value="peru"> peru </option>
+        </select>
+
+        <label for=genero> genero </label>    
+        <select name="genero" id="">
+            <option value="novela "> novela</option>
+            <option value="cuento"> cuento</option>
+            <option value="poesia">poesia</option>
+            <option value="teatro"> teatro </option>
+            <input type="submit" value="enviar datos">
+            <input type="submit" value="limpiar"> 
+            <label for="consulta "> deje su consulta </label>
+            <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
+        
+    </select> 
+
+            <label for="terns" > acepta terminos y condiciones </label>
+            <input type="checkbox" name="terms" value="1"/> 
+
+
+    </aside>
+
+<footer> 
+        <p class="footer">sitio dedicado a la divulgacion de literatura joven </p>
+   
+</footer>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/popper.min.js"></script>
+
+</body>
+</html>
