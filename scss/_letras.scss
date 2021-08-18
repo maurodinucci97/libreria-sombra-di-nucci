@@ -1,0 +1,171 @@
+$black: #000000;
+$blue: rgb(206, 226, 252);
+$lila: #8e44ad;
+$white: white;
+
+
+    
+
+  &.titulo {
+  
+    padding: 20px;
+    border: solid;
+    color: rgb(87, 57, 2);
+    font-weight: normal;
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+
+    .ul { color: $white; 
+      
+                
+      li{
+        margin: 50px;
+        padding: 50px;
+        align-items: center;
+        text-decoration: none;
+        display: inline;
+                
+    }
+      
+
+.subtitulo {
+  
+    margin: 20px;
+    padding: 30px;
+    font-family: 'Kaushan Script', cursive;
+    color: $black;
+    } color: $black;
+    text-align: center;
+    font-size: 15px;
+    
+    
+    }
+    
+
+        
+.p{
+        margin: 20px;
+        padding: 30px;
+        color: $black;
+        font-size: large;
+        font-style: italic;
+        text-align: center;
+        font-weight: bold;
+        animation-duration: 3s;
+        
+        
+        
+        
+        
+        }
+        
+h3 {  text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+        
+         }
+        
+.parrafoDeNovela {
+            font-style: italic;
+            font-size: 20px;
+            font-family: 'Great Vibes', cursive;
+            padding: 20px;
+            margin: 30px;
+           
+           }
+         
+  
+a {
+     font-family: fantasy;
+     text-decoration: none;
+     display: inline-block;
+     text-align: center;
+     font-size: large;
+            
+}
+
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightyellow;
+  
+  }
+  
+.pAside {
+      color: lightyellow;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  
+  }
+  
+.letraOfertas {
+              font-size: 30px;
+              color: $black;
+  
+  
+  }
+            
+
+
+  a:visited  {
+    color: $white;
+
+    }
+
+
+
+
+         
+.novela { float: left;
+          margin: 20px;
+          padding: 30px;
+          border: solid;
+          background:  linear-gradient(to top, $black, $white); 
+          transform: rotate(-10deg);
+        
+
+}
+
+
+.hr { clear: both;
+
+}
+
+.conociendonos { margin: 20px;
+               
+               font-size: 20px;
+               font-family: cursive;
+               display: inline
+}
+
+
+
+
+a:hover {
+background: $blue;
+
+
+
+}
+
+
+
+
+
+
+
+
+.pConcursos {  margin: 0;
+            
+             text-align: center;
+             background: black;
+             color: blanchedalmond;
+             font-family: sans-serif;
+             display: flex;
+             box-sizing: border-box;
+             
+
+            }
+
+ 
+.article {  font-family: Arial, Helvetica, sans-serif ; }

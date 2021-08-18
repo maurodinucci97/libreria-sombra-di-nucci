@@ -1,0 +1,97 @@
+$black: #000000;
+$blue: rgb(206, 226, 252);
+$lila: #8e44ad;
+$white: white;
+
+table {
+    border: 3px solid;
+    font-family: cursive;
+    color: $blue;
+    background-color: $blue;
+    width: 90%;
+    
+    text-align: center;
+    
+    th {
+    background-color: $black;
+    border: 1px solid;
+
+    tr, td {
+    border: 1px solid;
+    width: 25%;
+    text-align: center;
+    }
+ 
+      
+
+ 
+.aparecer{
+    margin:100px;
+    animation-duration: 8s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    text-align: center;
+    }
+    @keyframes aparecer {
+    0% {
+        opacity: 0;
+        }
+    50% {
+        opacity: 1;
+        }
+    100% {
+      opacity: 0;
+        }
+    }
+    
+    .animacion {
+    
+    background: $lila;
+    color: white;
+    padding: .2rem .3rem 1rem .3rem;
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation-name: animar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    }
+    @keyframes animar{
+    0% {
+      left: 0;
+      top: 0;
+    }
+    10% {
+      left: 10rem;
+      top: 0rem;
+      color: $lila;
+    }
+    30% {
+      top: 10rem;
+      left: 5rem;
+      color: $white;
+    }
+    60%{
+      top: 1rem;
+      left: 0;
+      color: $lila;
+    }
+    100% {
+      top: 0;
+      left: 0;
+    }
+    }
+
+.footer {background-color: $black;
+        min-height: 20px;
+        font-weight: normal;
+        color: rgb(124, 89, 0);
+        font-style: oblique;
+       
+        
+}
+
+
+ 
+ .indice {      font-family: Arial, Helvetica, sans-serif;
+    list-style: circle;
+    text-decoration: none; }

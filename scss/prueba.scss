@@ -1,0 +1,97 @@
+@import "generales" ;
+@import "menu";
+@import "letras";
+@import "contenedor"; 
+@import "variables"; 
+  
+  
+
+
+   /* carrusel que está en galería de fotos */
+  
+  .carruselPersonal {
+    width: 500px;
+    
+  }
+  
+
+
+  
+
+  
+  
+  
+  .audio {  width: 100%;
+  margin-right: 300px;
+  background-color: black;
+  
+  }
+  
+
+  
+ 
+  
+  
+
+  
+  
+  .fotosIndex  {   margin: 15px;
+                padding: 10px;
+                
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                background:  linear-gradient(to top, $black , $white); 
+                justify-content: space-around;
+                filter: saturate(150%);
+                
+  
+  
+  
+  }
+  
+  .imagenesLibros {  
+                    width: 350px;
+                    height: 300px;
+                    padding: 20px;
+                  
+                    
+                    
+  }
+  
+  
+  
+  
+  .seccionOfertas { margin: 20px;
+                  width: 80%;
+                  height: 600px;
+                  float: left;
+                  background:  linear-gradient(to top, $blue, $black); 
+                  
+  
+  
+  
+  }
+  
+  .asideOfertas {   padding: 10px;
+                  height: 600px;
+                  background: rgb(9, 24, 44);
+                  text-align: center;
+                  
+                 
+  
+  
+  }
+  
+  .ofertas {
+            margin: 30px;
+            padding: 20px;
+            
+  
+  
+  
+  }
+  
+ 
+  
+ 
