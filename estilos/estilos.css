@@ -1,0 +1,473 @@
+*  { margin: 0;
+    padding: 0;
+    box-sizing: border-box 0;
+    
+    
+}
+
+
+body {
+    background-color: rgb(192, 240, 240);
+    background-image: url(https://previews.123rf.com/images/kluva/kluva1512/kluva151200057/49482654-biblioteca-de-libros-de-patr%C3%B3n-transparente-la-lectura-de-fondo-patr%C3%B3n-de-bosquejo-dibujado-a-mano-s.jpg);
+    background-position: center;
+    
+    
+  
+  }
+
+   /* carrusel que está en galería de fotos */
+.contenedorIndex {  width: 100%;
+                    
+                    
+}
+
+nav {  width: 100%;
+       background-color: #000;      
+       height: 50px;       
+                    
+}
+                    
+
+  .carruselPersonal {
+    width: 500px;
+    
+  }
+
+.subtitulo {
+  
+  margin: 20px;
+  padding: 30px;
+  font-family: 'Kaushan Script', cursive;
+  color: rgb(3, 1, 15);
+  text-align: center;
+  font-size: 5em;
+
+
+}
+
+
+
+
+
+
+table {
+  border: 3px solid;
+  font-family: cursive;
+  color: rgb(206, 226, 252);
+  background-color: rgb(28, 49, 63);
+  width: 90%;
+ 
+  text-align: center;
+ }
+
+th {
+  background-color:#000105;
+  border: 1px solid;
+ }
+
+ tr, td {
+  border: 1px solid;
+  width: 25%;
+  text-align: center;
+ }
+
+.titulo{
+  background-color: #000;
+  padding: 20px;
+  border: solid;
+  color: rgb(243, 178, 59);
+  font-weight: normal;
+  font-size: 4em;
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  
+  
+}
+
+.p{
+  margin: 20px;
+  padding: 30px;
+  color: rgb(7, 1, 1);
+  font-size: large;
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  animation-duration: 3s;
+  
+  
+
+  
+  
+}
+
+h3 {  text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+
+.audio {  width: 100%;
+  margin-right: 300px;
+  background-color: black;
+
+}
+
+
+
+
+.indice {      font-family: Arial, Helvetica, sans-serif;
+               list-style: circle;
+               text-decoration: none;
+  
+   
+  }
+
+
+
+  
+.footer {      background-color: rgb(13, 15, 24);
+               min-height: 20px;
+               font-weight: normal;
+               color: rgb(124, 89, 0);
+               font-style: oblique;
+              
+               
+  }
+ 
+  
+
+    a:visited  {
+      color: rgb(235, 231, 231);
+
+      }
+
+  
+  
+  .parrafoDeNovela {
+           font-style: italic;
+           font-size: 20px;
+           font-family: 'Great Vibes', cursive;
+           padding: 20px;
+           margin: 30px;
+          
+          }
+        
+           
+ .novela { float: left;
+            margin: 20px;
+            padding: 30px;
+            border: solid;
+            background:  linear-gradient(to top, #000, #ccc); 
+            transform: rotate(-10deg);
+          
+  
+  }
+
+
+ 
+
+  .ul {
+    color: rgb(235, 231, 231); 
+
+  }
+
+
+
+
+.hr { clear: both;
+
+}
+
+.conociendonos { margin: 20px;
+                 
+                 font-size: 20px;
+                 font-family: cursive;
+                 display: inline
+}
+
+
+
+a {
+  font-family: fantasy;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  font-size: large;
+  
+}
+
+li{
+  margin: 50px;
+  padding: 50px;
+  align-items: center;
+  text-decoration: none;
+  display: inline;
+  
+}
+
+
+a:hover {
+  background: rgb(186, 226, 159);
+  
+  
+
+}
+  
+
+.menu  {  background:  linear-gradient(to top, #000, #ccc); 
+         width: 100%;
+         padding: 12em; 
+         height: 50px;
+         justify-content: center;
+        
+    
+        }
+  
+
+
+
+.contenedorTitulo { background-color: #000;
+
+
+
+
+}
+
+
+  .contenedorConcursos  {     width: 100%;
+                              height: 300px;
+                              background: url(../imagenes.html/5-premiosliterarios1.jpg);
+                              margin: 1em auto;
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              
+                              
+                            }                           
+    
+             
+.contenedorEntrevistas {  background-color: black;     
+                          width: 100%;
+                          height: 400px;
+                          display: flex;
+                          flex-wrap: wrap;
+                          justify-content: center;
+                          align-items: flex-start;         
+                          
+}
+
+
+
+
+
+
+
+.pConcursos {  margin: 0;
+              
+               text-align: center;
+               background: black;
+               color: blanchedalmond;
+               font-family: sans-serif;
+               display: flex;
+               box-sizing: border-box;
+               
+
+}
+
+.asideConcursos {     width: 100%;
+  background: linear-gradient(90deg, #000, #ccc);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  color: bisque;
+  font-size: 20px;
+
+ 
+
+}
+
+.conteiner { background-color: rgb(17, 16, 4);
+            width: 80%;
+            max-width: 1000px;
+            margin: 1.6em auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            
+
+}
+
+.conteiner > .contenido,
+.conteiner > .sidebar,
+.conteiner >.div {
+          background-color: lavender; 
+          padding: 20px;
+          border: 1px solid black;
+      
+          
+
+}
+
+
+.conteiner > .contenido {
+              
+              grid-column: span 2 ;
+              margin: 20px;
+              grid-row:  span 3 ;
+              background: linear-gradient( rgb(65, 59, 59), rgb(14, 103, 187) );
+              text-align: center;
+              
+        
+              
+             
+            
+}
+
+.conteiner > .sidebar {
+  width: 90%;
+   text-align: center;
+   background: linear-gradient( rgb(65, 59, 59), rgb(14, 103, 187) );
+  margin: 20px;
+  grid-column: span 2;
+  grid-row: span 3;
+  font-family: 'Courier New', Courier, monospace;
+  
+
+}
+
+.article {  font-family: Arial, Helvetica, sans-serif;
+            
+           
+
+
+}
+
+
+.fotosIndex  {   margin: 15px;
+                padding: 10px;
+                
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                background:  linear-gradient(to top, #000, #ccc); 
+                justify-content: space-around;
+                filter: saturate(150%);
+                
+
+
+
+}
+
+.imagenesLibros {  
+                    width: 350px;
+                    height: 300px;
+                    padding: 20px;
+                  
+                    
+                    
+}
+
+
+
+.seccionOfertas { margin: 20px;
+                  width: 100%;
+                  height: 600px;
+                  float: left;
+                  background:  linear-gradient(to top, rgb(54, 181, 240), rgb(14, 1, 1)); 
+                  
+
+
+
+}
+
+
+
+.ofertas {
+  width: auto;
+  
+  
+
+
+
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightyellow;
+
+}
+
+.pAside {
+  color: lightyellow;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+.letraOfertas {
+              font-size: 30px;
+              color: rgb(2, 10, 10);
+
+
+}
+
+.aparecer{
+  margin:100px;
+  animation-duration: 8s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+  text-align: center;
+}
+@keyframes aparecer {
+  0% {
+      opacity: 0;
+      }
+  50% {
+      opacity: 1;
+      }
+  100% {
+    opacity: 0;
+      }
+}
+
+.animacion {
+  
+  background: #8e44ad;
+  color: white;
+  padding: .2rem .3rem 1rem .3rem;
+  position: absolute;
+  border-radius: 2rem 2rem 0 0;
+  animation-name: animar;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes animar{
+  0% {
+    left: 0;
+    top: 0;
+  }
+  10% {
+    left: 10rem;
+    top: 0rem;
+    color: #9b59b6;
+  }
+  30% {
+    top: 10rem;
+    left: 5rem;
+    color: white;
+  }
+  60%{
+    top: 1rem;
+    left: 0;
+    color: #9b59b6;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+
+
